@@ -301,5 +301,17 @@ summary {
   display: list-item;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* hidden header */
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,24 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  background-color: $white-color;
+  color: $text-color;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+textarea {
+  resize: none;
+}
