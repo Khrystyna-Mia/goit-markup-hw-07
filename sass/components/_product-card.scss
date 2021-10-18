@@ -30,7 +30,7 @@
 
 .product__name {
   color: $title-color;
-  @include fontStyle(700, 18px, 2, 0.06em);
+  @include fontStyle(700, 18px, 36px, 0.06em);
 
   margin: 0;
   padding-top: 0;
@@ -39,7 +39,7 @@
 
 .product__text {
   color: &text-color;
-  @include fontStyle(400, 16px, 1.87, 0.03em);
+  @include fontStyle(400, 16px, 30px, 0.03em);
 
   margin: 0;
   padding-bottom: 0;

@@ -1,6 +1,6 @@
 .filter {
   color: $title-color;
-  @include fontStyle(500, 16px, 1.62, 0.03em);
+  @include fontStyle(500, 16px, 26px, 0.03em);
   text-align: center;
 
   @include centeredFlex();

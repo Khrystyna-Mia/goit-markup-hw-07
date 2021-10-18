@@ -486,7 +486,7 @@ textarea {
   color: #212121;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 26px;
   letter-spacing: 0.03em;
   text-transform: none;
   text-align: center;
@@ -559,7 +559,7 @@ textarea {
   color: #212121;
   font-weight: 700;
   font-size: 18px;
-  line-height: 2;
+  line-height: 36px;
   letter-spacing: 0.06em;
   text-transform: none;
   margin: 0;
@@ -571,7 +571,7 @@ textarea {
   color: .product__text text-color;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 30px;
   letter-spacing: 0.03em;
   text-transform: none;
   margin: 0;
@@ -583,7 +583,8 @@ textarea {
   overflow: hidden;
 }
 
-.product:hover.product__overlay, .product:focus.product__overlay {
+.product:hover .product__overlay,
+.product:focus .product__overlay {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
   visibility: visible;
@@ -610,7 +611,7 @@ textarea {
   color: #ffffff;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.56;
+  line-height: 28px;
   letter-spacing: 0.03em;
   text-transform: none;
   margin: 0;
