@@ -4,7 +4,7 @@
 
 .work__title {
   color: $title-color;
-  @include fontStyle(700, 36px, 1.16);
+  @include fontStyle(700, 36px, 1.16, 0.03em);
   text-align: center;
 
   margin-top: 0;
