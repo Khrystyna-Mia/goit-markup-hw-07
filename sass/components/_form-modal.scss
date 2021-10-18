@@ -34,6 +34,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+
   transition: transform 250ms $transition-timing, opacity 250ms $transition-timing;
 }
 
@@ -69,7 +70,7 @@
 
 .signup-form__title {
   display: block;
-  @include fontStyle(700, 20px, 1.15, 0.03em);
+  @include fontStyle(700, 20px, 23px, 0.03em);
   text-align: center;
   margin-top: 0;
   margin-bottom: 30px;
@@ -93,14 +94,14 @@
   top: -18px;
   left: 0;
 
-  @include fontStyle(400, 12px, 1.16, 0.01em);
+  @include fontStyle(400, 12px, 14px, 0.01em);
   margin-bottom: 4px;
   color: $text-color;
 }
 
 .form-field input,
 textarea {
-  @include fontStyle(400, 12px, 1.16, 0.01em);
+  @include fontStyle(400, 12px, 14px, 0.01em);
   border-radius: 4px;
   box-sizing: border-box;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -140,7 +141,7 @@ input {
 
   &::placeholder {
     color: rgba(117, 117, 117, 0.5);
-    @include fontStyle(400, 14px, 1.14, 0.01em);
+    @include fontStyle(400, 14px, 16px, 0.01em);
   }
 }
 
@@ -189,9 +190,6 @@ input {
   @extend %button;
   @include fontStyle(700, 16px, 1.87, 0.06em);
   align-items: center;
-  border-radius: 4px;
-  margin-right: auto;
-  margin-left: auto;
   padding: 10px 55px;
   min-width: 200px;
   border: none;

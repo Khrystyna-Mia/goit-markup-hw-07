@@ -3,7 +3,7 @@
   src: url("../base/fonts/Raleway-Bold.woff2") format("woff2"), url("../base/fonts/Raleway-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-display: auto;
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   src: url("../base/fonts/Roboto-Regular.woff2") format("woff2"), url("../base/fonts/Roboto-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
-  font-display: swap;
+  font-display: auto;
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   src: url("../base/fonts/Roboto-Medium.woff2") format("woff2"), url("../base/fonts/Roboto-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
+  font-display: auto;
 }
 
 @font-face {
@@ -27,7 +27,7 @@
   src: url("../base/fonts/Roboto-Bold.woff2") format("woff2"), url("../base/fonts/Roboto-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-display: auto;
 }
 
 @font-face {
@@ -35,7 +35,7 @@
   src: url("../base/fonts/Roboto-Black.woff2") format("woff2"), url("../base/fonts/Roboto-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
-  font-display: swap;
+  font-display: auto;
 }
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -314,7 +314,7 @@ summary {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   background-color: #ffffff;
   color: #757575;
@@ -331,7 +331,7 @@ textarea {
 }
 
 /* hidden header */
-.site-nav, .contacts, .advantage-cards__list, .work-cards, .team-list, .team-link, .client-list, .footer-contacts {
+.site-nav, .contacts, .advantage-cards__list, .work-cards, .team-list, .team-link, .client-list, .footer-contacts, .social__icon {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -369,7 +369,7 @@ textarea {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 31px;
   letter-spacing: 0.03em;
   text-transform: none;
   text-decoration: none;
@@ -377,7 +377,6 @@ textarea {
 
 .logo-header {
   color: #000000;
-  margin-bottom: 0px;
 }
 
 .logo-header__text {
@@ -387,6 +386,7 @@ textarea {
 .logo-footer {
   color: #ffffff;
   display: block;
+  margin-bottom: 20px;
 }
 
 .logo-footer__text {
@@ -411,9 +411,10 @@ textarea {
   color: #212121;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   letter-spacing: 0.02em;
   text-transform: none;
+  text-decoration: none;
   display: block;
   margin-bottom: 0px;
   padding-top: 32px;
@@ -465,9 +466,10 @@ textarea {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   letter-spacing: 0.02em;
   text-transform: none;
+  text-decoration: none;
   fill: #757575;
 }
 
@@ -498,7 +500,7 @@ textarea {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-top: 0;
@@ -508,7 +510,7 @@ textarea {
 .hero__button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 30px;
   letter-spacing: 0.06em;
   text-transform: none;
   display: block;
@@ -615,7 +617,7 @@ textarea {
   display: block;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 23px;
   letter-spacing: 0.03em;
   text-transform: none;
   text-align: center;
@@ -647,7 +649,7 @@ textarea {
   left: 0;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 14px;
   letter-spacing: 0.01em;
   text-transform: none;
   margin-bottom: 4px;
@@ -658,7 +660,7 @@ textarea {
 textarea {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 14px;
   letter-spacing: 0.01em;
   text-transform: none;
   border-radius: 4px;
@@ -707,7 +709,7 @@ input {
   color: rgba(117, 117, 117, 0.5);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   letter-spacing: 0.01em;
   text-transform: none;
 }
@@ -716,7 +718,7 @@ input {
   color: rgba(117, 117, 117, 0.5);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   letter-spacing: 0.01em;
   text-transform: none;
 }
@@ -725,7 +727,7 @@ input {
   color: rgba(117, 117, 117, 0.5);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   letter-spacing: 0.01em;
   text-transform: none;
 }
@@ -734,7 +736,7 @@ input {
   color: rgba(117, 117, 117, 0.5);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   letter-spacing: 0.01em;
   text-transform: none;
 }
@@ -798,9 +800,6 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 4px;
-  margin-right: auto;
-  margin-left: auto;
   padding: 10px 55px;
   min-width: 200px;
   border: none;
@@ -847,6 +846,7 @@ input {
 }
 
 .advantage-cards__thumb {
+  content: '';
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -856,7 +856,6 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  content: '';
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -870,9 +869,9 @@ input {
   color: #212121;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: uppercase;
-  text-transform: none;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -881,7 +880,7 @@ input {
   color: #757575;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 24px;
   letter-spacing: 0.03em;
   text-transform: none;
   margin-top: 0;
@@ -1130,9 +1129,11 @@ input {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 24px;
   letter-spacing: 0.03em;
   text-transform: none;
+  font-style: normal;
+  text-decoration: none;
   margin-top: 20px;
 }
 
@@ -1140,9 +1141,11 @@ input {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 24px;
   letter-spacing: 0.03em;
   text-transform: none;
+  font-style: normal;
+  text-decoration: none;
   display: inline-block;
   margin-bottom: 9px;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1158,7 +1161,7 @@ input {
   color: #ffffff;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-top: 0;
@@ -1237,7 +1240,6 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 4px;
   margin-right: 0;
   margin-left: 12px;
   padding: 10px 0px;

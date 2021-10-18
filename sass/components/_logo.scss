@@ -1,13 +1,13 @@
 %logo {
   font-family: Raleway, sans-serif;
-  @include fontStyle(700, 26px, 1.19, 0.03em);
+  @include fontStyle(700, 26px, 31px, 0.03em);
+
   text-decoration: none;
 }
 
 .logo-header {
   @extend %logo;
   color: $black-color;
-  margin-bottom: 0px;
 }
 
 .logo-header__text {
@@ -18,6 +18,7 @@
   @extend %logo;
   color: $white-color;
   display: block;
+  margin-bottom: 20px;
 }
 
 .logo-footer__text {

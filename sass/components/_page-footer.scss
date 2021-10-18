@@ -21,14 +21,17 @@
 
 .location {
   color: $white-color;
-  @include fontStyle(400, 14px, 1.71, 0.03em);
-
+  @include fontStyle(400, 14px, 24px, 0.03em);
+  font-style: normal;
+  text-decoration: none;
   margin-top: 20px;
 }
 
 .footer-contacts__link {
   color: rgba(255, 255, 255, 0.6em);
-  @include fontStyle(400, 14px, 1.71, 0.03em);
+  @include fontStyle(400, 14px, 24px, 0.03em);
+  font-style: normal;
+  text-decoration: none;
 
   display: inline-block;
   margin-bottom: 9px;
@@ -44,7 +47,7 @@
 .footer-social__title,
 .form-subscription__title {
   color: $white-color;
-  @include fontStyle(700, 14px, 1.14, 0.03em, uppercase);
+  @include fontStyle(700, 14px, 16px, 0.03em, uppercase);
 
   margin-top: 0;
   margin-bottom: 20px;
@@ -65,6 +68,7 @@
 }
 
 .social__icon {
+  @extend %lists;
   border-radius: 50%;
   fill: $third-icon;
   background-color: rgba(255, 255, 255, 0.1);

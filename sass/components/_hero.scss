@@ -15,14 +15,14 @@
 
 .hero__title {
   color: $white-color;
-  @include fontStyle(900, 44px, 1.36, 0.06em, uppercase);
+  @include fontStyle(900, 44px, 60px, 0.06em, uppercase);
   margin-top: 0;
   margin-bottom: 30px;
 }
 
 .hero__button {
   @extend %button;
-  @include fontStyle(700, 16px, 1.87, 0.06em);
+  @include fontStyle(700, 16px, 30px, 0.06em);
   display: block;
   padding: 10px 32px;
   min-width: 200px;

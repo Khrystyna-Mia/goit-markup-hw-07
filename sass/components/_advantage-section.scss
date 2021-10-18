@@ -21,8 +21,8 @@
 }
 
 .advantage-cards__thumb {
-  @include centeredFlex();
   content: '';
+  @include centeredFlex();
   flex-direction: column;
   height: 120px;
   margin-bottom: 30px;
@@ -31,7 +31,7 @@
 
 .advantage-cards__title {
   color: $title-color;
-  @include fontStyle(700, 14px, 1.14, uppercase);
+  @include fontStyle(700, 14px, 16px, 0.03em, uppercase);
 
   margin-top: 0;
   margin-bottom: 10px;
@@ -39,7 +39,7 @@
 
 .advantage-cards__text {
   color: $text-color;
-  @include fontStyle(400, 14px, 1.71, 0.03em);
+  @include fontStyle(400, 14px, 24px, 0.03em);
 
   margin-top: 0;
   margin-bottom: 0;

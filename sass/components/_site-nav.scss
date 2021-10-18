@@ -15,7 +15,8 @@
 
 .site-nav__link {
   color: $title-color;
-  @include fontStyle(500, 14px, 1.14, 0.02em);
+  @include fontStyle(500, 14px, 16px, 0.02em);
+  text-decoration: none;
 
   display: block;
   margin-bottom: 0px;
