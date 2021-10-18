@@ -829,24 +829,18 @@ input {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 0;
-  margin-bottom: 0;
-  /*margin-left: -30px;*/
-  padding-left: 0;
+  margin-top: -30px;
+  margin-left: -30px;
 }
 
 .advantage-cards__item {
   -ms-flex-preferred-size: calc(100 / 4 - 30px);
       flex-basis: calc(100 / 4 - 30px);
   margin-left: 30px;
-}
-
-.advantage-cards__item:not(:first-child) {
-  margin-left: 30px;
+  max-width: 270px;
 }
 
 .advantage-cards__thumb {
-  content: '';
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -856,12 +850,10 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  max-width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  border-radius: 4px;
   background-color: #f5f4fa;
 }
 
@@ -907,6 +899,8 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;

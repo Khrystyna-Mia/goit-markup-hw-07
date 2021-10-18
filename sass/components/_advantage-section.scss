@@ -6,26 +6,26 @@
   @extend %lists;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 0;
-  margin-bottom: 0;
-  /*margin-left: -30px;*/
-  padding-left: 0;
+  margin-top: -30px;
+  margin-left: -30px;
 }
 
 .advantage-cards__item {
   @include alignCards(4, 30px);
+  max-width: 270px;
 
-  &:not(:first-child) {
-    margin-left: 30px;
-  }
+  // &:not(:first-child) {
+  //   margin-left: 30px;
+  // }
 }
 
 .advantage-cards__thumb {
-  content: '';
   @include centeredFlex();
-  flex-direction: column;
+
+  max-width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  border-radius: 4px;
   background-color: $secondary-bg-color;
 }
 
