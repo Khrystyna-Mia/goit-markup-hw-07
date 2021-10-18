@@ -13,10 +13,6 @@
 .advantage-cards__item {
   @include alignCards(4, 30px);
   max-width: 270px;
-
-  // &:not(:first-child) {
-  //   margin-left: 30px;
-  // }
 }
 
 .advantage-cards__thumb {

@@ -24,7 +24,6 @@
   @include fontStyle(400, 14px, 24px, 0.03em);
   font-style: normal;
   text-decoration: none;
-  margin-top: 20px;
 }
 
 .footer-contacts__link {
@@ -40,7 +39,7 @@
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
@@ -54,6 +53,7 @@
 }
 
 .social {
+  @extend %lists;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -68,7 +68,6 @@
 }
 
 .social__icon {
-  @extend %lists;
   border-radius: 50%;
   fill: $third-icon;
   background-color: rgba(255, 255, 255, 0.1);

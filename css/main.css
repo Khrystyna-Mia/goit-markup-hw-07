@@ -331,7 +331,7 @@ textarea {
 }
 
 /* hidden header */
-.site-nav, .contacts, .advantage-cards__list, .work-cards, .team-list, .team-link, .client-list, .footer-contacts, .social__icon {
+.site-nav, .contacts, .advantage-cards__list, .work-cards, .team-list, .team-link, .client-list, .footer-contacts, .social {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -557,8 +557,8 @@ textarea {
 }
 
 .modal {
-  /*position: absolute;*/
-  position: fixed;
+  /*position: fixed;*/
+  position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%) scale(1);
@@ -1128,7 +1128,6 @@ input {
   text-transform: none;
   font-style: normal;
   text-decoration: none;
-  margin-top: 20px;
 }
 
 .footer-contacts__link {
@@ -1147,7 +1146,7 @@ input {
 }
 
 .footer-contacts__link:hover, .footer-contacts__link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .footer-social__title,
