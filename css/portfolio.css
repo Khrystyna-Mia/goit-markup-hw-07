@@ -315,7 +315,6 @@ summary {
 
 body {
   font-family: Roboto, sans-serif;
-  font-size: 14px;
   background-color: #ffffff;
   color: #757575;
 }
@@ -607,13 +606,12 @@ textarea {
 }
 
 .product__label {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  text-transform: none;
+  color: white;
   margin: 0;
   padding: 0;
 }

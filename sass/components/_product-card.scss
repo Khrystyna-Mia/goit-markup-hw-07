@@ -70,13 +70,8 @@
 }
 
 .product__label {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-  letter-spacing: 0.03em;
-  color: $white-color;
+  @include fontStyle(400, 18px, 28px, 0.03em);
+  color: rgb(255, 255, 255);
 
   margin: 0;
   padding: 0;
