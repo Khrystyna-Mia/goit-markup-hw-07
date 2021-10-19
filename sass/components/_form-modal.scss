@@ -69,12 +69,17 @@
 }
 
 .signup-form__title {
-  display: block;
-  @include fontStyle(700, 20px, 23px, 0.03em);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: $title-color;
+
   margin-top: 0;
   margin-bottom: 30px;
-  color: $title-color;
 }
 
 .form-field {
@@ -115,17 +120,17 @@ textarea {
     border-color: $secondary-icon;
     outline: $secondary-icon;
   }
-
-  &:hover ~ .form-field__icon,
-  &:focus ~ .form-field__icon {
-    fill: $secondary-icon;
-  }
 }
 
 input {
   height: 40px;
   margin: 0;
   padding: 0px 0px 0px 42px;
+
+  &:hover ~ .form-field__icon,
+  &:focus ~ .form-field__icon {
+    fill: $secondary-icon;
+  }
 }
 
 .form-field__icon {
@@ -188,7 +193,7 @@ input {
 
 .signup-form__btn {
   @extend %button;
-  @include fontStyle(700, 16px, 1.87, 0.06em);
+  @include fontStyle(700, 16px, 30px, 0.06em);
   align-items: center;
   padding: 10px 55px;
   min-width: 200px;

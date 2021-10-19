@@ -366,17 +366,18 @@ textarea {
 }
 
 .logo-header, .logo-footer {
-  font-family: Raleway, sans-serif;
+  font-family: Raleway;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  text-transform: none;
   text-decoration: none;
 }
 
 .logo-header {
   color: #000000;
+  margin-bottom: 0px;
 }
 
 .logo-header__text {
@@ -614,16 +615,16 @@ textarea {
 }
 
 .signup-form__title {
-  display: block;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
-  letter-spacing: 0.03em;
-  text-transform: none;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
   margin-top: 0;
   margin-bottom: 30px;
-  color: #212121;
 }
 
 .form-field {
@@ -679,17 +680,15 @@ textarea:focus {
   outline: #2196f3;
 }
 
-.form-field input:hover ~ .form-field__icon,
-.form-field input:focus ~ .form-field__icon,
-textarea:hover ~ .form-field__icon,
-textarea:focus ~ .form-field__icon {
-  fill: #2196f3;
-}
-
 input {
   height: 40px;
   margin: 0;
   padding: 0px 0px 0px 42px;
+}
+
+input:hover ~ .form-field__icon,
+input:focus ~ .form-field__icon {
+  fill: #2196f3;
 }
 
 .form-field__icon {
@@ -794,7 +793,7 @@ input {
 .signup-form__btn {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 30px;
   letter-spacing: 0.06em;
   text-transform: none;
   -webkit-box-align: center;

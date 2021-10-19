@@ -366,17 +366,18 @@ textarea {
 }
 
 .logo-header, .logo-footer {
-  font-family: Raleway, sans-serif;
+  font-family: Raleway;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  text-transform: none;
   text-decoration: none;
 }
 
 .logo-header {
   color: #000000;
+  margin-bottom: 0px;
 }
 
 .logo-header__text {
@@ -576,6 +577,18 @@ textarea {
   padding-bottom: 0;
 }
 
+.product {
+  position: relative;
+  overflow: hidden;
+}
+
+.product:hover .product__overlay,
+.product:focus .product__overlay {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  visibility: visible;
+}
+
 .product__overlay {
   position: absolute;
   bottom: 0;
@@ -594,12 +607,13 @@ textarea {
 }
 
 .product__label {
-  color: #ffffff;
-  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.03em;
-  text-transform: none;
+  color: #ffffff;
   margin: 0;
   padding: 0;
 }
