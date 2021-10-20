@@ -1,9 +1,8 @@
-@mixin fontStyle($weight, $size, $height, $spacing, $transform: none) {
-  font-weight: $weight;
-  font-size: $size;
-  line-height: $height;
-  letter-spacing: $spacing;
-  text-transform: $transform;
+@mixin fontStyle($fw, $fs, $lh, $ls) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh / $fs;
+  letter-spacing: $ls;
 }
 
 @mixin centeredFlex($type: flex, $justify: center, $align: center) {

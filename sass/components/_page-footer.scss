@@ -46,7 +46,8 @@
 .footer-social__title,
 .form-subscription__title {
   color: $white-color;
-  @include fontStyle(700, 14px, 16px, 0.03em, uppercase);
+  @include fontStyle(700, 14px, 16px, 0.03em);
+  text-transform: uppercase;
 
   margin-top: 0;
   margin-bottom: 20px;

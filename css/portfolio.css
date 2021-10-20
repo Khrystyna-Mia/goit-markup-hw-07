@@ -336,6 +336,16 @@ textarea {
   margin: 0;
 }
 
+.logo-header, .logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19231;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
 .form-subscription__btn {
   color: #ffffff;
   background-color: #2196f3;
@@ -362,16 +372,6 @@ textarea {
           align-items: center;
   align-items: center;
   height: 80px;
-}
-
-.logo-header, .logo-footer {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  text-decoration: none;
 }
 
 .logo-header {
@@ -411,9 +411,8 @@ textarea {
   color: #212121;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14286;
   letter-spacing: 0.02em;
-  text-transform: none;
   text-decoration: none;
   display: block;
   margin-bottom: 0px;
@@ -466,9 +465,8 @@ textarea {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14286;
   letter-spacing: 0.02em;
-  text-transform: none;
   text-decoration: none;
   fill: #757575;
 }
@@ -486,9 +484,8 @@ textarea {
   color: #212121;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
   letter-spacing: 0.03em;
-  text-transform: none;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -557,9 +554,8 @@ textarea {
   color: #212121;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
-  text-transform: none;
   margin: 0;
   padding-top: 0;
   padding-bottom: 4px;
@@ -569,9 +565,8 @@ textarea {
   color: .product__text text-color;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   letter-spacing: 0.03em;
-  text-transform: none;
   margin: 0;
   padding-bottom: 0;
 }
@@ -608,9 +603,8 @@ textarea {
 .product__label {
   font-weight: 400;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 1.55556;
   letter-spacing: 0.03em;
-  text-transform: none;
   color: white;
   margin: 0;
   padding: 0;
@@ -643,9 +637,8 @@ textarea {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71429;
   letter-spacing: 0.03em;
-  text-transform: none;
   font-style: normal;
   text-decoration: none;
 }
@@ -654,9 +647,8 @@ textarea {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71429;
   letter-spacing: 0.03em;
-  text-transform: none;
   font-style: normal;
   text-decoration: none;
   display: inline-block;
@@ -674,7 +666,7 @@ textarea {
   color: #ffffff;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14286;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-top: 0;
