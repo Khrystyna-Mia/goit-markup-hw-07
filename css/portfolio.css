@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Raleway';
-  src: url("../base/fonts/Raleway-VariableFont_wght.woff2") format("woff2"), url("../base/fonts/Raleway-VariableFont_wght.woff") format("woff");
+  src: url("../base/fonts/Raleway-Bold.woff2") format("woff2"), url("../base/fonts/Raleway-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: auto;
@@ -403,7 +403,7 @@ textarea {
   color: #212121;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14286;
+  line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
   display: block;
@@ -454,7 +454,7 @@ textarea {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14286;
+  line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
   fill: #757575;
@@ -473,7 +473,7 @@ textarea {
   color: #212121;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.625;
+  line-height: 26px;
   letter-spacing: 0.03em;
   text-align: center;
   display: flex;
@@ -529,7 +529,7 @@ textarea {
   color: #212121;
   font-weight: 700;
   font-size: 18px;
-  line-height: 2;
+  line-height: 36px;
   letter-spacing: 0.06em;
   margin: 0;
   padding-top: 0;
@@ -540,7 +540,7 @@ textarea {
   color: .product__text text-color;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 30px;
   letter-spacing: 0.03em;
   margin: 0;
   padding-bottom: 0;
@@ -573,7 +573,7 @@ textarea {
 .product__label {
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.55556;
+  line-height: 28px;
   letter-spacing: 0.03em;
   color: white;
   margin: 0;
@@ -604,7 +604,7 @@ textarea {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71429;
+  line-height: 24px;
   letter-spacing: 0.03em;
   font-style: normal;
   text-decoration: none;
@@ -614,7 +614,7 @@ textarea {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71429;
+  line-height: 24px;
   letter-spacing: 0.03em;
   font-style: normal;
   text-decoration: none;
@@ -632,7 +632,7 @@ textarea {
   color: #ffffff;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14286;
+  line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-top: 0;
