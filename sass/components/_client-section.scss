@@ -1,6 +1,6 @@
 .client__title {
   color: $title-color;
-  @include fontStyle(700, 36px, 1.16, 0.03em);
+  @include fontStyle(700, 36px, 42px, 0.03em);
   text-align: center;
 
   margin-top: 0;

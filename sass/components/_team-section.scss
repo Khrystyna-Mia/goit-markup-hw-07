@@ -4,7 +4,7 @@
 
 .team__title {
   color: $title-color;
-  @include fontStyle(700, 36px, 1.16, 0.03em);
+  @include fontStyle(700, 36px, 42px, 0.03em);
   text-align: center;
 
   margin-top: 0;
@@ -29,7 +29,7 @@
 
 .team-card__employee {
   color: $title-color;
-  @include fontStyle(500, 16px, 1.18, 0.03em);
+  @include fontStyle(500, 16px, 19px, 0.03em);
   text-align: center;
 
   margin-top: 30px;
@@ -38,7 +38,7 @@
 
 .team-card__text {
   color: $text-color;
-  @include fontStyle(400, 16px, 1.18, 0.03em);
+  @include fontStyle(400, 16px, 19px, 0.03em);
   text-align: center;
 
   margin-bottom: 30px;

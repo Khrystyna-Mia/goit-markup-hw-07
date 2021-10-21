@@ -4,7 +4,7 @@
 
 .work__title {
   color: $title-color;
-  @include fontStyle(700, 36px, 1.16, 0.03em);
+  @include fontStyle(700, 36px, 42px, 0.03em);
   text-align: center;
 
   margin-top: 0;
@@ -49,7 +49,7 @@
   margin: 0;
 
   color: $white-color;
-  @include fontStyle(700, 14px, 1.14, 0.03em);
+  @include fontStyle(700, 14px, 16px, 0.03em);
   text-transform: uppercase;
   text-align: center;
 }
