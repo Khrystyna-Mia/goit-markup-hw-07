@@ -3,8 +3,8 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  src: local(''), url('../fonts/raleway-v22-latin-700.woff2') format('woff2'),
-    url('../fonts/raleway-v22-latin-700.woff') format('woff');
+  src: local(''), url('../sass/base/fonts/raleway-v22-latin-700.woff2') format('woff2'),
+    url('../sass/base/fonts/raleway-v22-latin-700.woff') format('woff');
   font-display: auto;
 }
 
@@ -13,8 +13,8 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local(''), url('../fonts/roboto-v29-latin-regular.woff2') format('woff2'),
-    url('../fonts/roboto-v29-latin-regular.woff') format('woff');
+  src: local(''), url('../sass/base/fonts/roboto-v29-latin-regular.woff2') format('woff2'),
+    url('../sass/base/fonts/roboto-v29-latin-regular.woff') format('woff');
   font-display: auto;
 }
 
@@ -23,8 +23,8 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: local(''), url('../fonts/roboto-v29-latin-500.woff2') format('woff2'),
-    url('../fonts/roboto-v29-latin-500.woff') format('woff');
+  src: local(''), url('../sass/base/fonts/roboto-v29-latin-500.woff2') format('woff2'),
+    url('../sass/base/fonts/roboto-v29-latin-500.woff') format('woff');
   font-display: auto;
 }
 
@@ -33,8 +33,8 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: local(''), url('../fonts/roboto-v29-latin-700.woff2') format('woff2'),
-    url('../fonts/roboto-v29-latin-700.woff') format('woff');
+  src: local(''), url('../sass/base/fonts/roboto-v29-latin-700.woff2') format('woff2'),
+    url('../sass/base/fonts/roboto-v29-latin-700.woff') format('woff');
   font-display: auto;
 }
 
@@ -43,7 +43,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
-  src: local(''), url('../fonts/roboto-v29-latin-900.woff2') format('woff2'),
-    url('../fonts/roboto-v29-latin-900.woff') format('woff');
+  src: local(''), url('../sass/base/fonts/roboto-v29-latin-900.woff2') format('woff2'),
+    url('../sass/base/fonts/roboto-v29-latin-900.woff') format('woff');
   font-display: auto;
 }
