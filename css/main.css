@@ -1083,6 +1083,12 @@ input:focus ~ .form-field__icon {
 }
 
 .form-subscription__btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px / 16px;
+  letter-spacing: 0.06em;
   display: inline-flex;
   justify-content: center;
   align-items: center;
