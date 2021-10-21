@@ -10,7 +10,7 @@
 }
 
 .form-subscription__label {
-  display: none;
+  @extend %visually-hidden;
 }
 
 .form-subscription__input {
@@ -23,6 +23,12 @@
   color: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+  outline: none;
+
+  &::placeholder {
+    @include fontStyle(400, 16px, 20px, 0.03em);
+  }
 }
 
 .form-subscription__btn {
